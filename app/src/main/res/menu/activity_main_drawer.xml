@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Schedule">
+        <menu>
+            <item
+                android:id="@+id/students_list"
+                android:title="students list"
+                android:icon="@drawable/ic_students_list"
+                />
+        </menu>
+    </item>
+    <item android:title="Class">
+        <menu>
+      <item
+          android:id="@+id/attendance"
+          android:title="attendance"
+          android:icon="@drawable/ic_attendance"
+          />
+      <item
+          android:id="@+id/question"
+          android:title="Question"
+          android:icon="@drawable/ic_question"
+          />
+      <item
+          android:id="@+id/homework"
+          android:title="Homework"
+          android:icon="@drawable/ic_homework"
+          />
+      <item
+          android:id="@+id/final_exam"
+          android:title="Final Exams"
+          android:icon="@drawable/ic_final_exam"
+          />
+
+        </menu>
+    </item>
+
+</menu>
